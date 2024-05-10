@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   
+}
+.main{overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background: rgb(211,234,243);
+background: linear-gradient(180deg, rgba(211,234,243,1) 0%, rgba(239,205,213,1) 100%);
+}
+#page1{ 
+    width: 100vw;
+    height: 100vh;
+    
+}
+.nav {color: #000000;
+    padding-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav a{color: #000000;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3vw;   
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1vw;  
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px;
+}
+.nav2 .name{padding: 2px;
+    color: #fff;
+}
+.nav2 .surname{
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 2px;
+    color: #000000;
+}
+
+.nav3{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2vw;  
+    list-style: none;
+    
+}
+
+/* page1body */
+
+.page1body { 
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin:60px 0px 0px 0px;
+    flex-wrap: nowrap;
+    
+}
+.photo{
+   border: 2px dotted black;
+  margin-left: 10px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    animation: rotate 10s infinite ease-in-out;
+    
+}
+
+
+.page1body .infomation{
+    width: 50vw;
+    height: 60vh;
+   display: flex;
+   flex-direction: column;
+  margin-left: 18%;
+   gap: 50px;
+   
+  
+}
+.infomation .intro{
+    
+    
+    font-size: 5vw;
+    width: 35vw;
+    height: 5vh;
+  
+   
+}
+
+.myself{
+    font-size: 20px;
+    margin-top: 0vw;
+    width: 50vw;
+    
+   color: gray;
+   
+
+}
+.links{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.links>button{margin-left: 30px;
+    animation: rotate 10s infinite ease-in-out;
+    border-radius: 20px;
+    background-color: rgb(93, 89, 89);
+    color: #fff;
+    padding: 20px;
+}
+
+@keyframes rotate{
+    0%{border: 2px solid rgb(215, 146, 146);}
+    50%{border: 2px solid rgb(123, 214, 231);}
+    100%{border: 2px solid rgb(97, 215, 178);}
+}
+
+.nav1 li a:hover{
+    padding: 2px;
+    border-radius: 15px;
+ background: #000;
+ color: #fff;
+}
+.nav3 li a .ri-github-line:hover{
+    padding: 2px;
+    border-radius: 15px;
+ background: #000;
+ color: #fff;
+}
+.nav3 li a .ri-instagram-line:hover{
+    padding: 2px;
+    border-radius: 15px;
+ background: #f18181;
+ color: #fff;
+}
+.nav3 li a .ri-linkedin-box-fill:hover{
+    padding: 2px;
+    border-radius: 15px;
+ background: #0e6f99;
+ color: #fff;
+}
+.nav3 li a .ri-facebook-circle-line:hover{
+    padding: 2px;
+    border-radius: 15px;
+ background: #7ce0fc;
+ color: #fff;
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+}
+@keyframes left{
+    
+    0%{margin-left: 500px;}
+    10%{margin-left: 400px;}
+    20%{margin-left: 300px;}
+    50%{margin-left: 200px;}
+    60%{margin-left: 100px;}
+    70%{margin-left: 50px;}
+    100%{margin-left: 00px;}
+}

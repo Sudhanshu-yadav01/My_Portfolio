@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   
+}
+.main{overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background: rgb(211,234,243);
+background: linear-gradient(180deg, rgba(211,234,243,1) 0%, rgba(239,205,213,1) 100%);
+}
+
+.page4{height: 70vh;width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.heading4 {
+ height: 40vh;
+ width: 50vw;
+ 
+}
+
+@media (max-width:600px) {
+    .heading4 {
+        height: 20vh;
+        width: 50vw;
+    } 
+    .project{
+        flex-wrap: wrap;
+    }
+    .project1{ margin-right: 33vw;}
+    .project4{ margin-left: 30vw;}
+    .project2{ margin-right: 33vw;
+    margin-left: 33vw;}
+    .project3{ margin-right: 33vw;
+    margin-left: 33vw;}
+}
+
+
+.heading4 h1{
+ font-size: 10vw;
+ 
+}
+.box4{ margin-left: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;width: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+
+.smallcircle4{border: 2px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: down 2s infinite ease-in-out;
+    margin-top: 30px;
+}
+.text4{
+    width: 100px;
+    height: 100px;
+    
+}
+@keyframes down {
+    0%{
+        transform: translateY(0%);
+        
+    }
+    50%{
+        transform:  translateY(-30px);
+        
+    }
+    100%{
+        transform:  translateY(0%);
+       
+    }
+}    
+
+.project{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    gap: 40vw;
+    overflow-x: scroll;
+    
+}
+.project1{margin-left: 33vw;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2.5vh;
+}
+.project2{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2.5vh;
+    
+}.project3{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2.5vh;
+    
+}.project4{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2.5vh;
+    margin-right: 30vw;
+    
+}
+.projectvideo{
+    height: 50vh;
+    width: 36vw;
+    background: #000;
+}
+.projectdemo button{
+    
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.hire{ 
+    height: 100vh;width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   
+}
+.hirediv{margin-top: 30vh;
+    height: 20vh;width: 20vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.gol1{position: absolute;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 2;
+    background: #000;
+    color: #ffffff;
+    
+}
+.gol2{position: absolute;
+    border: 1px solid black;
+    height: 140px;
+    width: 140px;
+    
+    border-radius: 50%;
+    animation: zoom 1s infinite ease-in-out;
+}
+.gol3{position: absolute;
+    border: 1px solid black;
+    height: 160px;
+    width: 160px;
+    
+    border-radius: 50%;
+    animation: zoom 1s infinite 0.2s ease-in-out;
+}
+.gol4{position: absolute;
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    
+    border-radius: 50%;
+    animation: zoom 1s infinite 0.3s ease-in-out;
+}
+.gol5{position: absolute;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 50%;
+    animation: zoom 1s infinite 0.4s ease-in-out;
+}
+.gol6{position: absolute;
+    border: 1px solid black;
+    height: 220px;
+    width: 220px;
+    
+    border-radius: 50%;
+    animation: zoom 1s infinite 0.5s ease-in-out;
+}
+.gol1 a{padding: 3px;
+   text-decoration: none;
+   color: #ffffff;
+}
+
+@keyframes zoom {
+    0%{
+        height: 40px;
+        width: 40px;
+        border: 2px solid rgb(213, 200, 200);
+    }
+
+    
+    100%{
+        height: 150px;
+        width: 150px;
+        border: 2px solid rgb(151, 223, 228);
+    }
+   
+}
